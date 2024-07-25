@@ -57,5 +57,64 @@
 
     </div>
   </section>
+
+  <section id="projects" class="projects">
+    <h4 class="pt-2 w-75 m-auto">My Projects</h4>
+
+    <div class="center w-75 m-auto pt-2 pb-2">
+      <div class="card banner embed-responsive">
+        
+    </div>
+    </div>
+  </section>
+
+  <section id="resume" class="resume pt-5 pb-5">
+    <div class="embed-responsive center">
+      <h4 class=" w-75 m-auto">Want to learn more about my Skills, Accomplishments, Background and Work Experience ?</h4>
+      <div class="w-25 mt-3 m-auto center">
+        <button onclick="document.getElementById('resumeModal').style.display='block'" class=" center btn btn-success pd-2">Click here to view my resume</button>
+      </div>
+    </div>
+    <div class="embed-responsive center mt-5">
+      <h4 class=" w-75 m-auto">Want a PDF version ? No worries I got you !</h4>
+      <div class="w-25 mt-3  m-auto center">
+        <a class="btn btn-primary" href="https://drive.google.com/file/d/1d2BS39pF_1Ei0_B593p3jruE54Ezm7dB/view?usp=sharing" role="button" >
+          Resume PDF Version
+        </a>      </div>
+    </div>
+  </section>
+
+  <section id="futureprojects" class="future-projects">
+    <h4 class="pt-2 w-75 m-auto">My Upcoming Projects</h4>
+
+    <div class="center w-75 m-auto pt-2 pb-2">
+      <div class="card banner embed-responsive">
+        
+    </div>
+    </div>
+  </section>
+
+
+
+
+  <div class="modal" id="resumeModal">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Sagar Naidu Potana Resume</h5>
+          <button type="button" onclick="document.getElementById('resumeModal').style.display='none'" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"></span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <embed type="text/html" src="resume.html"  width="780" height="400">
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-danger" onclick="document.getElementById('resumeModal').style.display='none'" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

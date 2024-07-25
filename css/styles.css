@@ -38,3 +38,14 @@ hr.new1{
 .bi-linkedin, .bi-github,.bi-instagram{
     font-size:xxx-large
 }
+.resume{
+    /* background-color:#ddeeca; */
+    background-color: bisque;
+    text-align: center;
+}
+.modal-header{
+    background-color: whitesmoke;
+}
+.projects, .future-projects{
+    background-color: #ddeeca;
+}

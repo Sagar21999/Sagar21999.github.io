@@ -1,0 +1,40 @@
+.intro{
+    background-color: bisque;
+    width: 100%;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.card-img{
+    border: 10px solid gray;
+    width: 80%;
+    margin: auto;
+}
+.card-body{
+    margin: 10%;
+}
+.row{
+    width: 100vw;
+}
+.intro-text{
+    text-align: left;
+    width: 60%;
+    margin: auto;
+
+}
+.texter{
+    width: 90%;
+    margin: auto;
+}
+p{
+    text-align: justify;
+    font-weight: lighter;
+}
+hr.new1{
+    border: 5px solid black;
+}
+.connect{
+    text-align: center;
+}
+.bi-linkedin, .bi-github,.bi-instagram{
+    font-size:xxx-large
+}
